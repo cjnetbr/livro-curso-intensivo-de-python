@@ -1,0 +1,15 @@
+
+#4.13-Buffet: Um restaurante do tipo buffet oferece apenas cinco tipos básicos de comida. Pense em cinco pratos simples e armazene-os em uma tupla.
+buffet = ("Carne assada de panela ao molho escuro", "Lombo suíno assado", "Frango assado com parmesão", "Lasanha de Carne", "Talharim ao óleo e ervas" )
+#• Use um laço for para exibir cada prato oferecido pelo restaurante.
+for prato in buffet:
+    print(prato)
+#• Tente modificar um dos itens e cerifique-se de que Python rejeita a mudança.
+#buffet[2] = "Salada Catarse"
+#• O restaurante muda seu cardápio, substituindo dois dos itens com pratos diferentes. Acrescente um bloco de código que reescreva a tupla e, 
+#em seguida, use um laço for para exibir cada um dos itens do cardápio revisado.
+print(f"o Cardápio Original é {buffet}\n")
+novo_buffet = ("Carne assada de panela ao molho escuro", "Salada Catarse", "Pudim de leite condensado", "Lasanha de Carne", "Talharim ao óleo e ervas")
+for prato in novo_buffet:
+    print(prato)
+print(f"O Novo Cardápio é: {buffet}\n")
